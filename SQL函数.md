@@ -31,7 +31,7 @@
 * <a href="#3">SUM()</a>  
 &emsp;&emsp;<a href="#4">基本语法</a>  
 &emsp;&emsp;<a href="#5">实例</a>  
-&emsp;<a href="#6">GROUP BY</a>  
+* &emsp;<a href="#6">GROUP BY</a>  
 &emsp;&emsp;<a href="#7">基本语法</a>  
 &emsp;&emsp;<a href="#8">实例</a>  
 * &emsp;<a href="#9">HAVING</a>  
