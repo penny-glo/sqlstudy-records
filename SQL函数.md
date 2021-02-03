@@ -23,10 +23,10 @@
 |   8 |       5 |   545 | 2016-05-16 |
 |   9 |       3 |   201 | 2016-05-17 |
 
-## 目录
+## <a name="index">**Index**</a>
 
 * <a href="#1">COUNT() </a>  
-&emsp;&emsp;<a href="#15">实例</a> 
+&emsp;&emsp;<a href="#15">基本语法</a>  
 &emsp;&emsp;<a href="#2">实例</a>  
 * <a href="#3">SUM()</a>  
 &emsp;&emsp;<a href="#4">基本语法</a>  
@@ -42,7 +42,7 @@
 &emsp;&emsp;<a href="#14">实例</a>  
 
 
-## <a name="1">COUNT() </a><a style="float:right;text-decoration:none;" name=0>[Top]</a>
+## <a name="1">COUNT() </a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 
 ### <a name="15">基本语法</a>
