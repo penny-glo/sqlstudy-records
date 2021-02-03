@@ -1,4 +1,4 @@
-# <a name="0">SQL函数</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+# <a name="0">SQL函数</a>
 
 导入数据表：
 
@@ -26,6 +26,7 @@
 ## 目录
 
 * <a href="#1">COUNT() </a>  
+&emsp;&emsp;<a href="#15">实例</a> 
 &emsp;&emsp;<a href="#2">实例</a>  
 * <a href="#3">SUM()</a>  
 &emsp;&emsp;<a href="#4">基本语法</a>  
@@ -35,7 +36,7 @@
 &emsp;&emsp;<a href="#8">实例</a>  
 * &emsp;<a href="#9">HAVING</a>  
 &emsp;&emsp;<a href="#10">基本语法</a>  
-&emsp;&emsp;<a href="#11">简单应用</a>  
+&emsp;&emsp;<a href="#11">实例</a>  
 * &emsp;<a href="#12">EXISTS</a>  
 &emsp;&emsp;<a href="#13">基本语法</a>  
 &emsp;&emsp;<a href="#14">实例</a>  
@@ -44,7 +45,7 @@
 ## <a name="1">COUNT() </a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 
-###基本语法
+### <a name="15">基本语法</a>
 
 ```sql
 SELECT COUNT(column_name) FROM table_name;	#返回指定列的值的数目
@@ -52,7 +53,7 @@ SELECT COUNT(*) FROM table_name;	#返回表中的记录数
 SELECT COUNT(DISTINCT column_name) FROM table_name;	#返回指定列的不同值的数目
 ```
 
-### <a name="2">实例</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### <a name="2">实例</a>
 
 下面的 SQL 语句计算 "access_log" 表中 "site_id"=3 的总访问量：
 
@@ -69,7 +70,7 @@ SELECT COUNT(DISTINCT site_id) AS nums FROM access_log;
 
 ## <a name="3">SUM()</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
-### <a name="4">基本语法</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### <a name="4">基本语法</a>
 
 SUM() 函数返回数值列的总数
 
@@ -77,7 +78,7 @@ SUM() 函数返回数值列的总数
 SELECT SUM(column_name) FROM table_name;
 ```
 
-### <a name="5">实例</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### <a name="5">实例</a>
 输入：
 
 ```sql
@@ -92,7 +93,7 @@ SELECT SUM(count) AS nums FROM access_log;
 
 ## <a name="6">GROUP BY</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
-### <a name="7">基本语法</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### <a name="7">基本语法</a>
 ```sql
 SELECT column_name, aggregate_function(column_name)
 FROM table_name
@@ -100,7 +101,7 @@ WHERE column_name operator value
 GROUP BY column_name;
 ```
 
-### <a name="8">实例</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### <a name="8">实例</a>
 
 * 简单应用
 
@@ -146,7 +147,7 @@ GROUP BY Websites.name;
 
 ## <a name="9">HAVING</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
-### <a name="10">基本语法</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### <a name="10">基本语法</a>
 
 HAVING 子句可以筛选分组后的各组数据
 
@@ -158,7 +159,7 @@ GROUP BY column_name
 HAVING aggregate_function(column_name) operator value;
 ```
 
-### <a name="11">简单应用</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### <a name="11">实例</a>
 
 查找总访问量大于 200 的网站
 
@@ -171,7 +172,7 @@ HAVING SUM(access_log.count) > 200;
 ```
 
 ## <a name="12">EXISTS</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
-### <a name="13">基本语法</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### <a name="13">基本语法</a>
 
 EXISTS 运算符用于判断查询子句是否有记录，如果有一条或多条记录存在返回 True，否则返回 False
 
@@ -182,7 +183,7 @@ WHERE EXISTS
 (SELECT column_name FROM table_name WHERE condition);
 ```
 
-### <a name="14">实例</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+### <a name="14">实例</a>
 
 查找总访问量(count 字段)大于 200 的网站是否存在
 
