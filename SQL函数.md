@@ -1,4 +1,3 @@
-<a>[Top]</a>
 # <a name="0">SQL函数</a>
 
 导入数据表：
@@ -43,7 +42,7 @@
 &emsp;&emsp;<a href="#14">实例</a>  
 
 
-## <a name="1">COUNT() </a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+## <a name="1">COUNT() </a><a style="float:right;text-decoration:none;" name=0>[Top]</a>
 
 
 ### <a name="15">基本语法</a>
