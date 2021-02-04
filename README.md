@@ -13,6 +13,8 @@
 
 [自学SQL网](http://xuesql.cn/)
 
+[SQL 教程 | 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1177760294764384)
+
 #### [基本数据查询](https://github.com/penny-glo/sqlstudy-records/blob/main/%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E6%9F%A5%E8%AF%A2.md)
 
 #### [SQL高级语法](https://github.com/penny-glo/sqlstudy-records/blob/main/SQL%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95.md)
