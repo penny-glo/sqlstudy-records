@@ -1,5 +1,7 @@
 # sqlstudy-records
 
+[GITHUB 基本撰写和格式语法](https://docs.github.com/cn/github/writing-on-github/basic-writing-and-formatting-syntax)
+
 数据库
 ---
 《数据库技术》 chapter 7
