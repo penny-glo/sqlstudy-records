@@ -28,7 +28,6 @@
 |   9 |       3 |   201 | 2016-05-17 |
 
 ## <a name="目录">**目录**</a>
-<a href="#0">SQL高级语法</a>  
 * &emsp;<a href="#1">SQL IN</a>  
 * &emsp;<a href="#2">SQL BETWEEN</a>  
 * &emsp;<a href="#3">SQL别名(AS)</a>  
