@@ -1,4 +1,4 @@
-# SQL Server的安全机制
+# SQL Server的安全控制
 
 ## <a name="目录">**目录**</a>
 
