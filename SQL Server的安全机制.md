@@ -1,6 +1,6 @@
 # SQL Server的安全机制
 
-<a name="目录">**目录**</a>
+## <a name="目录">**目录**</a>
 
 * &emsp;<a href="#0">身份认证模式</a>  
 * &emsp;<a href="#1">登录账户</a>  
