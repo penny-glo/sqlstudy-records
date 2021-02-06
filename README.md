@@ -12,6 +12,10 @@
 
 #### [数据库后台编程技术]
 
+《数据库技术》 chapter 9.5
+
+#### [SQL Server的安全控制](https://github.com/penny-glo/sqlstudy-records/blob/main/SQL%20Server%E7%9A%84%E5%AE%89%E5%85%A8%E6%8E%A7%E5%88%B6.md)
+
 基本数据查询
 ---
 
