@@ -10,7 +10,7 @@
 
 《数据库技术》 chapter 8
 
-#### [数据库后台编程技术]
+#### [数据库后台编程技术](https://github.com/penny-glo/sqlstudy-records/blob/main/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%90%8E%E5%8F%B0%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF.md#%E7%9B%AE%E5%BD%95)
 
 《数据库技术》 chapter 9.5
 
