@@ -6,7 +6,7 @@
 ---
 《数据库技术》 chapter 7
 
-#### [数据库及数据库对象]
+#### [数据库及数据库对象](https://github.com/penny-glo/sqlstudy-records/blob/main/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8F%8A%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AF%B9%E8%B1%A1.md)
 
 《数据库技术》 chapter 8
 
